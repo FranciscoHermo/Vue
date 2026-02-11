@@ -4,7 +4,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <nav class="navbar bg-light">
+  <nav class="navbar bg-dark navbar-dark">
     <div class="container">
       <RouterLink class="navbar-brand" to="/">
         <img
@@ -22,7 +22,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div class="container text-center">
     <RouterView />
   </div>
 </template>
