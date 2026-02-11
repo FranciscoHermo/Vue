@@ -25,7 +25,7 @@ getData()
 </script>
 
 <template>
-    <img :src="poke.sprites.front_shiny" alt="">
+    <img :src="poke.sprites?.front_shiny" alt="">
     <h1>Poke name:  {{ $route.params.name }}</h1>
     <button @click="back">Volver</button>
 </template>
