@@ -1,5 +1,5 @@
 {
-  "name": "router-1",
+  "name": "vue-pinia",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,8 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.13.5",
-    "bootstrap": "^5.3.8",
     "pinia": "^3.0.4",
     "vue": "^3.5.27",
     "vue-router": "^5.0.1"

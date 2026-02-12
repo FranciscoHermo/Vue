@@ -19,6 +19,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       <div>
         <RouterLink class="btn btn-outline-primary me-2" to="/">Home</RouterLink>
         <RouterLink class="btn btn-outline-primary me-2" to="/pokemons">Pokemons</RouterLink>
+        <RouterLink class="btn btn-outline-primary me-2" to="/favoritos">Favoritos</RouterLink>
       </div>
     </div>
   </nav>
